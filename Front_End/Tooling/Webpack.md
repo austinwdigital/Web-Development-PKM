@@ -70,6 +70,7 @@ import('./module').then(module => {
 ```
 
 Explanation of the examples:
+
 - The first block shows a basic webpack configuration file.
 - It includes loaders for JavaScript (using Babel) and CSS.
 - The HtmlWebpackPlugin is used to generate an HTML file.
@@ -190,4 +191,3 @@ module.exports = {
 - What did I learn from studying this topic? Webpack is a powerful tool that offers extensive customization and optimization options for modern web development.
 - How confident do I feel about this topic now? Comfortable with basic configurations, but need more practice with advanced features and performance optimization.
 - What should I review next? Dive deeper into webpack's performance optimization techniques and explore how it integrates with different front-end frameworks.
-

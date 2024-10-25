@@ -65,6 +65,7 @@ export function greeting(name) {
 ```
 
 Explanation of the examples:
+
 - The HTML file includes CSS and JavaScript files as if they were not bundled.
 - Parcel automatically handles the bundling of these assets.
 - JavaScript modules are used and Parcel handles the module resolution and bundling.

@@ -58,6 +58,7 @@ var MyClass = function MyClass() {
 ```
 
 Explanation of the examples:
+
 - The `.babelrc` file shows a basic Babel configuration using a preset and a plugin.
 - The ES6+ code demonstrates features like arrow functions and class properties.
 - The transpiled output shows how Babel converts these features to ES5-compatible code.
@@ -149,4 +150,3 @@ module.exports = function({ types: t }) {
 - What did I learn from studying this topic? Babel is a powerful tool that enables developers to use modern JavaScript features while maintaining backwards compatibility.
 - How confident do I feel about this topic now? Comfortable with basic usage, but need more practice with advanced configurations and custom plugins.
 - What should I review next? Dive deeper into Babel's AST (Abstract Syntax Tree) manipulation and explore how it's used in various JavaScript frameworks and libraries.
-

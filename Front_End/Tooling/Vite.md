@@ -64,6 +64,7 @@ if (import.meta.hot) {
 ```
 
 Explanation of the examples:
+
 - The first block shows a basic Vite configuration file.
 - The second block demonstrates how to set up a React app with Vite.
 - The third block shows how to use Hot Module Replacement in Vite.
@@ -171,4 +172,3 @@ export default App
 - What did I learn from studying this topic? Vite offers a fresh approach to front-end tooling with a focus on speed and developer experience.
 - How confident do I feel about this topic now? Comfortable with basic usage, but need more practice with advanced configurations and custom plugins.
 - What should I review next? Dive deeper into Vite's plugin system and explore how it handles different file types and optimizations.
-

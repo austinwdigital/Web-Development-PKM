@@ -43,6 +43,7 @@ function greet(name) {
 ```
 
 Configuration example (`.prettierrc`):
+
 ```json
 {
   "printWidth": 100,
@@ -57,6 +58,7 @@ Configuration example (`.prettierrc`):
 ```
 
 Explanation of the examples:
+
 - Prettier automatically adjusts spacing, indentation, and line breaks.
 - The configuration file allows for some customization of Prettier's behavior.
 
@@ -104,11 +106,13 @@ Explanation of the examples:
 - **Solution**:
 
 1. Install necessary packages:
+
 ```bash
 npm install --save-dev prettier husky lint-staged
 ```
 
 2. Add the following to your `package.json`:
+
 ```json
 {
   "husky": {
@@ -140,4 +144,3 @@ This setup will run Prettier on staged `.js` and `.css` files before each commit
 - What did I learn from studying this topic? Prettier offers a simple yet powerful way to maintain consistent code formatting across projects and teams.
 - How confident do I feel about this topic now? Comfortable with basic usage and configuration, but need more practice with integrating Prettier into complex development workflows.
 - What should I review next? Dive deeper into advanced Prettier configurations, explore its plugin system, and study best practices for integrating Prettier with other development tools and CI/CD pipelines.
-
