@@ -43,6 +43,7 @@
 ```
 
 Usage examples:
+
 ```bash
 npm run start
 npm test
@@ -50,6 +51,7 @@ npm run build
 ```
 
 Explanation of the examples:
+
 - The `start` script runs the main server file.
 - `test` runs the Jest testing framework.
 - `build` uses webpack to create a production build.
@@ -128,4 +130,3 @@ Note: This solution uses the `rimraf` package, which should be installed as a de
 - What did I learn from studying this topic? NPM Scripts offer a powerful, built-in solution for task automation in JavaScript projects, reducing the need for external tools.
 - How confident do I feel about this topic now? Comfortable with basic script creation and usage, but need more practice with complex scenarios and cross-platform considerations.
 - What should I review next? Dive deeper into advanced npm script techniques, such as using `npm-run-all` for parallel script execution or leveraging environment variables effectively.
-

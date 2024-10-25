@@ -60,6 +60,7 @@ gulp.task('default', gulp.parallel('sass', 'scripts', 'watch'));
 ```
 
 Explanation of the examples:
+
 - The `gulpfile.js` defines several tasks: compiling SASS, minifying and concatenating JavaScript, and watching for file changes.
 - The `sass` task compiles SCSS files to CSS.
 - The `scripts` task concatenates and minifies JavaScript files.
@@ -142,4 +143,3 @@ gulp.task('optimize-images', function() {
 - What did I learn from studying this topic? Gulp provides a powerful and flexible way to automate various development tasks, with a focus on streaming for efficiency.
 - How confident do I feel about this topic now? Comfortable with basic task creation and usage, but need more practice with complex workflows and performance optimization.
 - What should I review next? Dive deeper into creating custom Gulp plugins and explore advanced techniques for managing large-scale build processes.
-

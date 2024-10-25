@@ -62,6 +62,7 @@ function exampleFunction() {
 ```
 
 Explanation of the examples:
+
 - The `.eslintrc.js` file shows a basic ESLint configuration with some common rules.
 - The example JavaScript code contains several ESLint violations (indentation, unused variables, quote style, missing semicolons).
 - The corrected version adheres to the defined ESLint rules.
@@ -148,4 +149,3 @@ module.exports = {
 - What did I learn from studying this topic? ESLint is a powerful tool for maintaining code quality and consistency, with a high degree of customization.
 - How confident do I feel about this topic now? Comfortable with basic configuration and usage, but need more practice with custom rules and advanced setups.
 - What should I review next? Dive deeper into creating custom ESLint plugins and explore how ESLint is used in large-scale JavaScript projects.
-
